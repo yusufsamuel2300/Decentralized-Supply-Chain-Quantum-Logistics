@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.entanglement-cordination]
+path = 'contracts/entanglement-cordination.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.quantum-optimization]
 path = 'contracts/quantum-optimization.clar'
 clarity_version = 2
